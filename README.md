@@ -1,5 +1,5 @@
 # Ex. No: 9 - Packet Tracer: Subnet an IPv4 Network
-# Date: ___________
+# Date: 03-10-2025
 ________________________________________ <br>
 # Objective
 Design, configure, and verify an IPv4 subnetting scheme in Cisco Packet Tracer.<br>
@@ -21,6 +21,8 @@ ________________________________________
 ________________________________________<br>
 # Network Topology Diagram
 (Insert your Packet Tracer screenshot showing CustomerRouter → LAN-A Switch → PC-A, CustomerRouter → LAN-B Switch → PC-B, and ISP side with Router, Switch, Workstation, Server, and Serial link.)<br>
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/b4da8c34-dfa3-4630-90d9-07f50b40962c" />
+
 ________________________________________<br>
 # Addressing Table
 Device	Interface	IP Address	Subnet Mask	Default Gateway<br>
@@ -94,8 +96,17 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on CustomerRouter<br>
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/320f68e1-56eb-4e1d-b45a-e570bb0ba2d8" />
+
 •	show ip route<br>
+
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/320f68e1-56eb-4e1d-b45a-e570bb0ba2d8" />
+
 •	Successful pings: PC-A → PC-B, PC-A → ISP Server<br>
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/208a6fe2-85b8-4c1a-a633-8340a24caf59" />
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/11f6fa95-0ae1-48fd-ba51-779f4e8bf3a1" />
+<img width="3148" height="1799" alt="image" src="https://github.com/user-attachments/assets/02e2432c-27d1-4d65-8bf1-682f1f8f9ccc" />
+
 ________________________________________<br>
 # Result
 The IPv4 subnetting scheme was successfully designed and implemented. Router, switches, and PCs were configured with correct addressing. Connectivity within LANs, across subnets, and to ISP devices was verified using ping and show commands.<br>
